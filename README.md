@@ -1,14 +1,14 @@
 # Slipstream
 
-**A Claude Skill that gets you caught up in your field, and keeps you there, without you having to figure out what to learn.**
+**A Claude Skill that builds you a personalized learning curriculum and then never lets it go stale. Catch up once, stay current for as long as you keep showing up.**
 
 You fell behind because you were busy doing the actual work. Now the field has moved, you have no idea how far, and every "just read these 40 newsletters" suggestion assumes time you do not have. The real problem is not motivation. It is that deciding what to learn now costs more than the learning itself.
 
-Slipstream removes that overhead. It interviews you about your role and goals, researches what is actually current in your field right now, and generates a learning plan built for your time, your gaps, and your job. Then it guides you through the plan one session at a time, tracks what you finish, and quietly rewrites the plan as the field changes. You show up with whatever time you have. It always knows what is next.
+Slipstream removes that overhead, and unlike a course or a reading list, it does not expire. It interviews you about your role and goals, researches what is actually current in your field right now, and generates a learning plan built for your time, your gaps, and your job. Then it guides you through the plan one session at a time, tracks what you finish, and continuously rewrites the plan as the field changes: new tools get added, stale courses get swapped out, shifted priorities get reflected. The plan you generate today is not a snapshot. It is a living curriculum that is still current a year from now, which is why this is a tool you use forever, not a syllabus you finish.
 
 The name comes from cycling: riding in the slipstream of the riders ahead lets you cover the same ground on a fraction of the energy. Same idea here. The route is researched, sequenced, and maintained for you, so your limited time goes into learning instead of deciding what to learn.
 
-*(Not affiliated with any other product named Slipstream. This is an open-source Claude Skill for self-directed learning.)*
+_(Not affiliated with any other product named Slipstream. This is an open-source Claude Skill for self-directed learning.)_
 
 ## What does Slipstream actually do?
 
@@ -50,10 +50,9 @@ If you can name the field, Slipstream can build the plan.
 
 ## How do I install it?
 
-1. Download this repository (green Code button, then Download ZIP) or clone it.
-2. Zip the `slipstream` folder itself, so the folder containing `SKILL.md` is the root of the archive. If you downloaded the repo ZIP, extract it first and re-zip just the `slipstream` folder.
-3. In the Claude desktop app, open **Customize**, click **+**, choose **Create skill**, and upload the zip.
-4. Confirm `slipstream` appears in your skills list and is toggled on.
+**The easy way:** download `slipstream.zip` from the [Releases page](../../releases), then in the Claude desktop app open **Customize**, click **+**, choose **Create skill**, and upload the zip. Confirm `slipstream` appears in your skills list and is toggled on. That's it.
+
+**From source** (if you cloned or downloaded the repository instead): the archive you upload must have a folder named `slipstream` as its root, containing `SKILL.md`. Put the repository files inside a folder named `slipstream` (GitHub's Download ZIP extracts to `slipstream-main`, so rename it), zip that folder, and upload as above.
 
 ## How do I use it?
 
